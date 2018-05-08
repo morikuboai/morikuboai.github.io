@@ -14,3 +14,19 @@
 .about_block{
   margin-bottom: 40px;
 }
+.about_profiel{
+  padding: 20px;
+}
+.about_profiel{
+  margin: 40px;
+}
+
+.about_profiel img{
+  width: 20%;
+  float: left;
+}
+
+.profiel_more{
+  padding: 40px;
+  float: none;
+}
