@@ -1,11 +1,25 @@
 #about_page
 {
   margin: 100px  40px;}
+p{
+  color: #cbb994;
+}
+
+li{
+  color: #cbb994;
+}
+
+a{
+  color: #b2d8ff;
+
+}
+
 h3{
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 0.05em;
+  color: #cbb994;
 }
 
 .tittle h2{
@@ -16,16 +30,16 @@ h3{
   font-weight: 300;
   letter-spacing: 0.05em;
   font-size: 20px;
+  color: #eddbff;
 }
 
 .about_block{
   margin-bottom: 40px;
 }
 .about_profiel{
-  padding: 20px 0px;
+  padding: 0px 0px;
 }
-.about_profiel{
-  margin: 20px 0px;
+.about_profiel {
 }
 
 .about_profiel img{
@@ -33,12 +47,25 @@ h3{
 }
 
 .text_area{
-  margin: 60px auto;
+  margin: px auto;
 
+}
+
+
+.text_area00{
+  padding: 20px 0px;
 }
 .profiel_more{
   margin-top: 40px;
   padding: 40px;
   float: none;
   border-top:solid 1px #ccc;
+}
+
+.col-md-9{
+  padding: 40px 0px;
+}
+
+col-md-3{
+  padding: 40px 0px;
 }
