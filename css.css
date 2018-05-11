@@ -1,0 +1,16 @@
+
+.container{
+  margin-top: 50px;
+}
+
+.nav-item{
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.jumbotron {
+  margin-top: 40px;
+  background-image: url("img1/top_vi.png");
+  background-size: cover;
+  background-position: center 65%;
+}
