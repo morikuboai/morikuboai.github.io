@@ -8,9 +8,14 @@
   margin-top: 5px;
 }
 
-.jumbotron {
-  margin-top: 40px;
-  background-image: url("img1/top_vi.png");
-  background-size: cover;
-  background-position: center 65%;
+.col-md-7{
+  padding: 40px 0px;
+}
+
+.featurette-heading{
+  text-align: center;
+}
+
+.col-12{
+  text-align: center;
 }
