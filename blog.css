@@ -1,0 +1,22 @@
+
+
+.header{
+  margin-bottom: 100px;
+}
+
+.body{
+  margin-top: 300px;
+}
+
+.footer{
+  background-color: #b2d8ff;
+}
+
+.text_area{
+  margin: 50px 0px;
+}
+
+h3,h6{
+  text-align: center;
+}
+
