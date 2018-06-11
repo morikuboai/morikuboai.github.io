@@ -72,3 +72,13 @@ h4,h6{
 .list-group-item p{
   font-size: 12px;
 }
+
+.image{
+display:inline-block;
+text-align: center;
+}
+
+.sns_bottan{
+  display: inline-block;
+  margin: 0 auto;
+}
