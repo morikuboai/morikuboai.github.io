@@ -1,0 +1,11 @@
+#fanart h2 {
+  color: white;
+}
+
+h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-family: 'Chelsea Market', cursive;
+  letter-spacing: 0.15em;
+  color:white ;
+}

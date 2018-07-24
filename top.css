@@ -49,13 +49,16 @@ body {
 h2,h3{
   text-align: center;
   color: white;
-  font-family: 'Quicksand', sans-serif;;
 
 }
 
 h2{
   font-size: 42px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  font-family: 'Chelsea Market', cursive;
+  color: white;
+  letter-spacing: 0.15em;
+
 }
 
 
@@ -68,11 +71,6 @@ a:hover{
   text-decoration: none;
 }
 
-h2{
-  color: white;
-  font-family:"Al Bayan";
-
-}
 
 h3 {
   font-size: 20px;
@@ -131,9 +129,25 @@ p{
   color: #cbb994;
 }
 
+@media screen and (max-width: 768px) {
+  #massage{
+    margin-top:20px ;
+  }
+  #massage h3{
+    text-align: center;
+    font-size: 15px;
+    color: #cbb994;
+  }
+
+}
+
+
+.title{
+  margin-bottom: 30px;
+}
 /*セクションskill*/
 #skill {
-  margin :50px auto;
+  margin-top: 50px;
   background-color: #fee0d2;
   width: 100%;
   padding-top: 20px;
@@ -142,7 +156,7 @@ p{
 }
 
 #work {
-  margin :60px auto;
+  margin :50px auto;
   width: 90%;
   padding: 50px 0px;
   background-color: #dad3cb;
@@ -152,16 +166,20 @@ p{
 
 #work img{
   width: 100%;
-  height: 200px;
+  height: 150px;
   object-fit: cover;
   padding: 5px;
+  transition: 1.0s
 }
+#work img:hover {
+  opacity: 0.5 ;
+}
+
 
 #fanart{
   margin :60px auto;
   width: 90%;
   padding: 50px 0px;
-  background-color: #dad3cb;
   border-radius: 6px;
 
 }
@@ -169,13 +187,59 @@ p{
   width: 100%;
   height: 280px;
   object-fit: cover;
-  padding: 5px;
-}
+  padding: 0px;
+  border:7px solid white;
 
+
+}
+#fanart p:hover img {border:3px solid #f3b5d1}
+
+#fanart h2{
+  color: #e6c3c3;
+}
 .art img{
   width: 100%;
   text-align: center;
   background-color: white;
+
+}
+
+.ttl_coment{
+  font-size: 20px;
+  color:#4D3B32;
+  margin: 30px 0px;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 768px) {
+  #fanart{
+    margin :30px auto;
+    width: 90%;
+    padding: 30px 0px;
+    background-color: #dad3cb;
+    border-radius: 6px;
+
+  }
+  .ttl_coment{
+    font-size: 10px;
+  }
+  h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Chelsea Market', cursive;
+    color: white;
+    letter-spacing: 0.15em;
+
+  }
+  #work {
+    margin :30px auto;
+    width: 90%;
+    padding: 30px 0px;
+    background-color: #dad3cb;
+    border-radius: 6px;
+
+  }
 
 }
 .icon img{
@@ -295,15 +359,31 @@ footer{
 
 
 /* Toggle Button */
-#nav-toggle {
-  display: none;
+.toggle{
+  width: 64px;
+  height: 64px;
   position: absolute;
-  right: 12px;
-  top: 14px;
-  width: 34px;
-  height: 36px;
+  border: 3px solid #f3b5d1;
+  background-color: #fff;
+  border-radius: 35px;
+  right: 20px;
+  top:20px;
+  z-index: 3;
+
+}
+
+
+#nav-toggle {
+  display: block;
+  position: absolute;
+  right: 36px;
+  top: 35%;
   cursor: pointer;
   z-index: 101;
+  left: 50%;
+  width: 25px;
+  height: 4px;
+  margin: -2px 0 0 -12px;
 }
 #nav-toggle div {
   position: relative;
@@ -407,3 +487,12 @@ footer{
     transform: translateY(556px);
   }
 
+  .box{
+    margin-top: 150px;
+  }
+
+@media screen and (max-width: 768px) {
+  .box{
+    margin-top: 100px;
+  }
+}
